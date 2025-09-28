@@ -38,13 +38,13 @@ This project implements and analyzes classic divide-and-conquer algorithms using
 
 ---
 
-## Metrics and Architecture (30%)
+## Metrics and Architecture
 
 ### Metrics Collected
 
-- Execution time  
-- Recursion depth  
-- Number of comparisons  
+- Execution time
+- Recursion depth
+- Number of comparisons
 - CSV output for plotting and analysis (optional)
 
 ### Architecture Notes
@@ -68,7 +68,7 @@ This project implements and analyzes classic divide-and-conquer algorithms using
 
 ---
 
-## GitHub Workflow (20%)
+## GitHub Workflow
 
 ### Branches
 
@@ -78,20 +78,20 @@ This project implements and analyzes classic divide-and-conquer algorithms using
 
 ### Commit Storyline
 
-- `init: maven, junit5, readme`  
-- `feat(metrics): counters, depth tracker, CSV writer`  
-- `feat(mergesort): baseline + reuse buffer + cutoff + tests`  
-- `feat(quicksort): smaller-first recursion, randomized pivot + tests`  
-- `feat(select): deterministic select (MoM5) + tests`  
-- `feat(closest): divide-and-conquer implementation + tests`  
-- `feat(cli): parse args, run algos, emit CSV`  
-- `docs(report): master cases & AB intuition, initial plots`  
-- `fix: edge cases (duplicates, tiny arrays)`  
+- `init: maven, junit5, readme`
+- `feat(metrics): counters, depth tracker, CSV writer`
+- `feat(mergesort): baseline + reuse buffer + cutoff + tests`
+- `feat(quicksort): smaller-first recursion, randomized pivot + tests`
+- `feat(select): deterministic select (MoM5) + tests`
+- `feat(closest): divide-and-conquer implementation + tests`
+- `feat(cli): parse args, run algos, emit CSV`
+- `docs(report): master cases & AB intuition, initial plots`
+- `fix: edge cases (duplicates, tiny arrays)`
 - `release: v1.0`
 
 ---
 
-## Testing (10%)
+## Testing
 
 All algorithms are tested using JUnit5:
 
@@ -118,8 +118,8 @@ All algorithms are tested using JUnit5:
 
 ### Requirements
 
-- Java 17 or higher  
-- Maven 3.8 or higher  
+- Java 17 or higher
+- Maven 3.8 or higher
 - Git (for cloning the repository)
 
 ### Run Tests
